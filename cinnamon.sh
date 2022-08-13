@@ -16,10 +16,6 @@ cd Downloads
 
 google-chrome https://discord.com/api/download?platform=linux&format=deb
 
-sudo dkpg -i discord-0.0.16.deb
-
-sudo apt-get install -f
-
 git clone https://github.com/vinceliuice/Orchis-theme
 
 cd Orchis-theme
