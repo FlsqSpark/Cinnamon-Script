@@ -1,0 +1,1 @@
+# For bluetooth, comment out AutoEnable in the file /etc/bluetooth/main.conf as it turns off bluetooth on startup for some odd reason.
