@@ -1,0 +1,2 @@
+# Add this command to a custom shortcut in cinnamon to get the screen to turn off when locking: 
+bash -c "cinnamon-screensaver-command -l; xset dpms force off;"
