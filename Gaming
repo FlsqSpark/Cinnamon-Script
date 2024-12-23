@@ -1,0 +1,25 @@
+# Everything will be done via flatpak for ease of use
+
+# Installing Steam
+
+flatpak install steam: and then choose app/com.valvesoftware.Steam/X86_64/Stable
+
+flatpak install steam: and then choose runtime/com.valvesoftware.steam.compatabilitytool.proton-GE/X86_64/Stable
+
+Install Protontricks
+
+Install ProtonUp-Qt
+
+Install Flatseal
+
+flatpak install gamescope: and then choose runtime/org.freedesktop.Platform.VulkanLayer.gamescope/x86_64xx.08 - xx meaning highest number
+
+flatpak install mangohud: and then choose runtime/org.freedesktop.Platform.VulkanLayer.Mangohud/x86_64xx.08 - xx meaning highest number
+
+reboot
+
+Launchoptions
+
+env MANGOHUD_CONFIG="fsr,fps_value.gamemode" gamemoderun gamescope --mangoapp -w 1280 -h 720 -W 1920 -H 1080 -F fsr -f -- %command%
+
+
